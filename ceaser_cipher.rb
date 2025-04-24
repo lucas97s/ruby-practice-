@@ -62,9 +62,10 @@ def alphabet_rotate (number, key)
     return number 
 end 
 
+ 
+string_to_cipher = gets.chomp
+key_to_cipher = gets.chomp
 
 
-
-
-puts caeser_cipher("What a string!", 5)
+puts caeser_cipher(string_to_cipher, key_to_cipher.to_i)
 
